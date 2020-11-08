@@ -1,0 +1,10 @@
+canvas {
+  height: 100vh;
+  image-rendering: optimizespeed;
+}
+
+button {
+  position: absolute;
+  top: 92vh;
+  left: 5vh;
+}

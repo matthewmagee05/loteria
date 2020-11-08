@@ -1,0 +1,21 @@
+
+
+<mat-grid-list cols="2" rowHeight="100px">
+  <mat-grid-tile [colspan]="1">
+    <form [formGroup]="basicForm" class="example-form">
+      <mat-form-field>
+        <input matInput formControlName="imageSearch" placeholder="Search for an image...">
+      </mat-form-field>
+
+    </form>
+  </mat-grid-tile>
+  <mat-grid-tile>
+    <button mat-raised-button color="primary" (click)="searchForImage()">Search</button>
+  </mat-grid-tile>
+</mat-grid-list>
+
+<mat-grid-list cols="2" rowHeight="100px" *ngIf="images">
+  <mat-grid-tile [colspan]="1" *ngFor="let img of images">
+    <img [src]="img.urls.thumb" (click)="updateCanvas(img.urls.regular)"/>
+  </mat-grid-tile>
+</mat-grid-list>

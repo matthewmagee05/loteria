@@ -1,1 +1,7 @@
-<canvas #canvas width="100%" height="100%"></canvas>
+<canvas #canvas width="100%" height="90%"></canvas>
+
+<button mat-raised-button (click)="downloadFile()" *ngIf="imageUrl" color="primary">Download</button>
+<div id="download">
+  <img #canvasImg>
+  <a #downloadLink></a>
+</div>
