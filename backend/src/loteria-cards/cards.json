@@ -1,0 +1,224 @@
+{
+    "cards": [
+        {
+            "name": "el alacran",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+alacran.jpg"
+        },
+        {
+            "name": "el apache",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+apache.jpeg"
+        },
+        {
+            "name": "el arbol",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+arbol.jpeg"
+        },
+        {
+            "name": "el arpa",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+arpa.jpeg"
+        },
+        {
+            "name": "el bandolon",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+bandolon.jpeg"
+        },
+        {
+            "name": "el barril",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+barril.jpeg"
+        },
+        {
+            "name": "el borracho",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+borracho.jpeg"
+        },
+        {
+            "name": "el camaron",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+camaron.jpeg"
+        },
+        {
+            "name": "el cantarito",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+cantarito.jpg"
+        },
+        {
+            "name": "el catrin",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+catrin.jpg"
+        },
+        {
+            "name": "el cazo",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+cazo.jpg"
+        },
+        {
+            "name": "el corazon",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+corazon.jpg"
+        },
+        {
+            "name": "el cotorro",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+cotorro.jpeg"
+        },
+        {
+            "name": "el diablito",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+diablito.jpg"
+        },
+        {
+            "name": "el gallo",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+gallo.jpg"
+        },
+        {
+            "name": "el gorrito",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+gorrito.jpeg"
+        },
+        {
+            "name": "el melon",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+melon.jpeg"
+        },
+        {
+            "name": "el muerte",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+muerte.jpeg"
+        },
+        {
+            "name": "el mundo",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+mundo.jpeg"
+        },
+        {
+            "name": "el musico",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+musico.jpeg"
+        },
+        {
+            "name": "el negrito",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+negrito.jpeg"
+        },
+        {
+            "name": "el nopal",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+nopal.jpeg"
+        },
+        {
+            "name": "el pajaro",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+pajaro.jpeg"
+        },
+        {
+            "name": "el paraguas",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+paraguas.jpeg"
+        },
+        {
+            "name": "el pescado",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+pascado.jpeg"
+        },
+        {
+            "name": "el pino",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+pino.jpg"
+        },
+        {
+            "name": "el sol",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+sol.jpeg"
+        },
+        {
+            "name": "el soldado",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+soldado.jpeg"
+        },
+        {
+            "name": "el tambor",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+tambor.jpeg"
+        },
+        {
+            "name": "el venado",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+venado.jpeg"
+        },
+        {
+            "name": "el violoncello",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+violencello.png"
+        },
+        {
+            "name": "el valiente",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el.+valiente.jpg"
+        },
+        {
+            "name": "el pino",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/el+pino.jpg"
+        },
+        {
+            "name": "la arana",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+aran%CC%83a.jpeg"
+        },
+        {
+            "name": "la bandera",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+bandera.jpeg"
+        },
+        {
+            "name": "la bota",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+bota.jpg"
+        },
+        {
+            "name": "la botella",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+botella.jpeg"
+        },
+        {
+            "name": "la calavera",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+calavera.jpeg"
+        },
+        {
+            "name": "la campana",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+campana.jpeg"
+        },
+        {
+            "name": "la chalupa",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+chalupa.jpeg"
+        },
+        {
+            "name": "la corona",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+corona.jpeg"
+        },
+        {
+            "name": "la dama",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/La+dama.jpg"
+        },
+        {
+            "name": "la escalera",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+escalera.jpeg"
+        },
+        {
+            "name": "la estrella",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+estrella.jpeg"
+        },
+        {
+            "name": "la garza",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+garza.jpeg"
+        },
+        {
+            "name": "la luna",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+luna.jpg"
+        },
+        {
+            "name": "la maceta",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+maceta.jpg"
+        },
+        {
+            "name": "la mano",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+mano.jpeg"
+        },
+        {
+            "name": "la palma",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+palma.jpeg"
+        },
+        {
+            "name": "la pera",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+pera.jpeg"
+        },
+        {
+            "name": "la rana",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+rana.jpeg"
+        },
+        {
+            "name": "la rosa",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+rosa.jpeg"
+        },
+        {
+            "name": "la sandia",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+sandia.jpeg"
+        },
+        {
+            "name": "la sirena",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/la+sirena.jpeg"
+        },
+        {
+            "name": "las jaras",
+            "imageUrl": "https://loteria-cards.s3.amazonaws.com/las+jaras.jpeg"
+        }
+    ]
+}
