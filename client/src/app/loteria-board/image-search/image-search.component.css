@@ -1,5 +1,5 @@
 mat-grid-list {
-  margin: 10px;
+  margin-left: 10px;
 }
 
 input {
@@ -8,4 +8,8 @@ input {
 
 img {
   cursor: pointer;
+}
+
+button {
+  margin-right: 10px;
 }

@@ -1,7 +1,7 @@
 
 
-<mat-grid-list cols="2" rowHeight="100px">
-  <mat-grid-tile [colspan]="1">
+<mat-grid-list cols="10" rowHeight="130px">
+  <mat-grid-tile [colspan]="5">
     <form [formGroup]="basicForm" class="example-form">
       <mat-form-field>
         <input matInput formControlName="imageSearch" placeholder="Search for an image...">
@@ -9,8 +9,13 @@
 
     </form>
   </mat-grid-tile>
-  <mat-grid-tile>
+  <mat-grid-tile [colspan]="2">
     <button mat-raised-button color="primary" (click)="searchForImage()">Search</button>
+
+  </mat-grid-tile>
+  <mat-grid-tile [colspan]="3">
+    <button type="button" mat-raised-button (click)="fileInput.click()" color="accent">Upload Image</button>
+    <input hidden (change)="onFileSelected()" #fileInput type="file" id="file"  accept="image/png, image/jpeg">
   </mat-grid-tile>
 </mat-grid-list>
 
@@ -19,3 +24,13 @@
     <img [src]="img.urls.thumb" (click)="updateCanvas(img.urls.regular)"/>
   </mat-grid-tile>
 </mat-grid-list>
+<ng-container *ngIf="images.length > 0">
+<mat-paginator [length]="total"
+              [pageSize]="10"
+              [pageSizeOptions]="[10]"
+              #paginator
+              (page)="pageChanged($event)">
+</mat-paginator>
+</ng-container>
+
+
