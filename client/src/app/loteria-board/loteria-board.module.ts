@@ -7,6 +7,7 @@ import { MaterialModule } from '../material/material.module';
 import { ImageSearchComponent } from './image-search/image-search.component';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { DragDropWrapperComponent } from './drag-drop-wrapper/drag-drop-wrapper.component';
+import { AngularDraggableModule } from 'angular2-draggable';
 
 
 
@@ -17,7 +18,8 @@ import { DragDropWrapperComponent } from './drag-drop-wrapper/drag-drop-wrapper.
     LoteriaBoardRoutingModule,
     MaterialModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    AngularDraggableModule
   ]
 })
 export class LoteriaBoardModule { }

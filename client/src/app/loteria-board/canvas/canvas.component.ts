@@ -14,6 +14,7 @@ export class CanvasComponent implements OnInit, OnDestroy {
   @ViewChild('canvas') canvas: ElementRef;
   @ViewChild('canvasImg') canvasImg: ElementRef;
   @ViewChild('downloadLink') downloadLink: ElementRef;
+  @ViewChild('canvasWrapper') canvasWrapper: ElementRef;
   imageUrl;
 
   _destroying$: BehaviorSubject<void> = new BehaviorSubject<void>(null);
@@ -76,6 +77,7 @@ export class CanvasComponent implements OnInit, OnDestroy {
     const context = this.canvas.nativeElement.getContext('2d');
     image.onload = () => {
       context.drawImage(image, 0, 0, this.canvas.nativeElement.width, this.canvas.nativeElement.height);
+
     }
 
     //get DPI
@@ -92,10 +94,13 @@ export class CanvasComponent implements OnInit, OnDestroy {
   }
 
   downloadFile(){
-    const link = document.createElement('a');
-    link.download = 'test.png';
-    link.href = this.canvas.nativeElement.toDataURL();
-    link.click();
+    html2canvas(this.canvasWrapper.nativeElement, {width: +getComputedStyle(this.canvas.nativeElement).getPropertyValue("width").slice(0, -2), height: +getComputedStyle(this.canvas.nativeElement).getPropertyValue("height").slice(0, -2)}).then(function(canvas) {
+      const link = document.createElement('a');
+      link.download = 'test.png';
+      link.href = canvas.toDataURL();
+      link.click();
+  });
+
 
   }
 

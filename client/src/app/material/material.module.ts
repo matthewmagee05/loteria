@@ -11,6 +11,8 @@ import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import {MatPaginatorModule} from '@angular/material/paginator';
+import {DragDropModule} from '@angular/cdk/drag-drop';
+
 
 @NgModule({
   declarations: [],
@@ -26,7 +28,8 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatTooltipModule,
     MatToolbarModule,
     MatProgressSpinnerModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    DragDropModule
   ],
   exports: [
     MatDatepickerModule,
@@ -39,7 +42,8 @@ import {MatPaginatorModule} from '@angular/material/paginator';
     MatTooltipModule,
     MatToolbarModule,
     MatProgressSpinnerModule,
-    MatPaginatorModule
+    MatPaginatorModule,
+    DragDropModule
   ],
 })
 export class MaterialModule {}
